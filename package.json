@@ -1,0 +1,20 @@
+{
+  "name": "nwtgck-ts-hello",
+  "version": "0.0.4",
+  "description": "A practice of npm TypeScript package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Ryo Ota",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}
